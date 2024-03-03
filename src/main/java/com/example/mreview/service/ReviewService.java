@@ -43,6 +43,7 @@ public interface ReviewService {
                 .nickname(movieReview.getMember().getNickname())
                 .email(movieReview.getMember().getEmail())
                 .grade(movieReview.getGrade())
+                .text(movieReview.getText())
                 .regDate(movieReview.getRegDate())
                 .modDate(movieReview.getModDate())
                 .build();
